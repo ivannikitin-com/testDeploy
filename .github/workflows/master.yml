@@ -18,7 +18,6 @@ jobs:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
         flags: '-avzr --delete'
-        ssh_options: '-p 99999'
         src: './'
         dest: 'vadim@wp-server.ru:/www/lustshop/www/test'
 
