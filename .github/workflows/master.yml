@@ -22,4 +22,4 @@ jobs:
         dest: 'vadim@wp-server.ru:/www/lustshop/www/test'
 
     - name: Display status from deploy
-      run: echo "${{ steps.deploy.outputs.status }}"v
+      run: echo "${{ steps.deploy.outputs.status }}"
